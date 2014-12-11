@@ -1,7 +1,9 @@
-# Android self-registration gEBC #
-Drive for Work customized apk to demonstrate use case for Drive for Work
-The apk download data from an spreadsheet and take configuration parameters (logo, title, subtitle) from same spreadsheet
-http://www.google.com/work
+# Drive for Work backend retail sample app #
+Drive for Work customized apk to demonstrate use case for Drive for Work.
+The app make use of JSON download functionality of Google Spreadsheets as explained here:
+https://developers.google.com/gdata/samples/spreadsheet_sample
+The apk downloads not only data from an spreadsheet, but also takes configuration parameters (logo, title, subtitle) from same spreadsheet
+See info on Drive for Work here: http://www.google.com/work
 
 
 ## Usage
@@ -14,23 +16,23 @@ http://www.google.com/work
 
 ## Client libraries
 
-Client libraries must be used for proper compilation. The following libraries must be included:
-picasso-2.4.0
-android-suppport-v4
-android-support-v7-recyclerview
-android-support-v7-cardview
+The following libraries must be included for proper compilation and execution:
+* picasso-2.4.0
+* android-suppport-v4
+* android-support-v7-recyclerview
+* android-support-v7-cardview
 
 
 ## Android release
 
-This apk uses Material Design concepts
-Compiled with SDK target 21 (5.0) and tested on Nexus5
+This apk uses Material Design concepts compiled with SDK target 21 (5.0) and tested on Nexus5.
+IDE used is Eclipse Luna
 
 
 ## Screenshots
 
 Main activity:
-![image alt text](images/Screenshot.png)
+![image alt text](screenshots/.png)
 
 
 
