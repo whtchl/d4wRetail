@@ -1,18 +1,24 @@
-# Drive for Work backend retail sample app #
-Drive for Work customized apk to demonstrate use case for Drive for Work.
-The app make use of JSON download functionality of Google Spreadsheets as explained here:
-https://developers.google.com/gdata/samples/spreadsheet_sample
-The apk downloads not only data from an spreadsheet, but also takes configuration parameters (logo, title, subtitle) from same spreadsheet
-See info on Drive for Work here: http://www.google.com/work
+# Drive for Work backend - Retail Android app #
+Drive for Work customizable apk to demonstrate retail use case with Drive for Work.
+
+The apk uses this [spreadsheet as backend](https://docs.google.com/spreadsheets/d/1zQMzthur_TkahfG-8-vBWQgXJVxdT9UnhHJavRJAHhI/edit?usp=sharing), mandatory to execute the apk. 
+The apk makes use of JSON download functionality of Google Spreadsheets as explained [in this video](https://www.youtube.com/watch?v=RSgMEtRl0sw), and also [prediction API](https://developers.google.com/apps-script/advanced/prediction). 
+
+The spreadsheet contains up to three Apps Script projects, one for the prediction API, another one to download data and another one to download customizable parameters, like logos, titles, subtitle and background color.
+
+See info on Drive for Work here: [http://www.google.com/work](http://www.google.com/work), which offers unlimited storage and advanced audit controls.
 
 
 ## Usage
 
-1) Create an spreadsheet with the specific format
+1) Launch the apk
 
-2) Launch the apk
+2) If desired, open the backend and customize logo, title, subtitle. Click on Refresh on the apk
 
-3) Customize logo, title, subtitle on the spreadsheet and click on Refresh
+## Backend
+
+The backend is a [Google Spreadheet](https://docs.google.com/spreadsheets/d/1zQMzthur_TkahfG-8-vBWQgXJVxdT9UnhHJavRJAHhI/edit?usp=sharing), hosted on Drive for Work backend
+
 
 ## Client libraries
 
@@ -25,14 +31,14 @@ The following libraries must be included for proper compilation and execution:
 
 ## Android release
 
-This apk uses Material Design concepts compiled with SDK target 21 (5.0) and tested on Nexus5.
+The apk can be downloaded from [here](https://drive.google.com/file/d/0B6IAELMrLfE5TDRhLUJUT05mUnc/view?usp=sharing).
+This apk uses Material Design concepts (also transitions) compiled with SDK target 21 (5.0) and tested on Nexus 5 with lollipop.
 IDE used is Eclipse Luna
+
+
 
 
 ## Screenshots
 
 Main activity:
-![image alt text](screenshots/.png)
-
-
-
+![image alt text](screenshots/main.png)

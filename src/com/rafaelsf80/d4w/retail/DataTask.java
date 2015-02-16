@@ -35,7 +35,7 @@ public class DataTask extends AsyncTask<Void, Void, Void> {
         try {
             HttpClient hc = new DefaultHttpClient();
             // The script must be on gmail.com account to access anonimously
-            String 	URL = "https://script.google.com/macros/s/AKfycbzXFXijV5ROaoLx47AT53gqlIrMRqLPd3FqT_AsVsdHxxjqVzoj/exec";
+            String 	URL = "https://script.google.com/macros/s/AKfycbxFAo0wxZ7fcJEyDE0QdfGmBhFiJiA3a8YMpv9KjRGeYZdK2iU/exec";
             HttpGet get = new HttpGet(URL);
             HttpResponse rp = hc.execute(get);
 

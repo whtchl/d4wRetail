@@ -145,11 +145,6 @@ public class SimpleArrayAdapter   extends RecyclerView.Adapter<SimpleArrayAdapte
 	
 				Log.d(TAG, "onClick tvTitle");
 		
-	
-				
-				
-				
-				
         		Intent intent = new Intent(v.getContext(), ItemDetails.class);
 
         		// when a list item has been pressed move to the item details screen,  passing the following data				
