@@ -1,5 +1,6 @@
 package com.rafaelsf80.d4w.retail;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;

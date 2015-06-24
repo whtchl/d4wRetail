@@ -1,5 +1,5 @@
 # Drive for Work backend - Retail Android app #
-Drive for Work customizable apk to demonstrate retail use case with Drive for Work.
+Customizable Android apk to demonstrate retail use case with Drive for Work.
 
 The apk uses this [spreadsheet as backend](https://docs.google.com/spreadsheets/d/1zQMzthur_TkahfG-8-vBWQgXJVxdT9UnhHJavRJAHhI/edit?usp=sharing), mandatory to execute the apk. 
 The apk makes use of JSON download functionality of Google Spreadsheets as explained [in this video](https://www.youtube.com/watch?v=RSgMEtRl0sw), and also [prediction API](https://developers.google.com/apps-script/advanced/prediction). 
@@ -13,14 +13,14 @@ See info on Drive for Work here: [http://www.google.com/work](http://www.google.
 
 1) Launch the apk
 
-2) If desired, open the backend and customize logo, title, subtitle. Click on Refresh on the apk
+2) If desired, open the spreadsheet backend and customize logo, title, subtitle. Click on Refresh on the apk
 
 ## Backend
 
-The backend is a [Google Spreadheet](https://docs.google.com/spreadsheets/d/1zQMzthur_TkahfG-8-vBWQgXJVxdT9UnhHJavRJAHhI/edit?usp=sharing), hosted on Drive for Work backend
+The backend is a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1zQMzthur_TkahfG-8-vBWQgXJVxdT9UnhHJavRJAHhI/edit?usp=sharing), hosted on Drive for Work backend
 
 
-## Client libraries
+## Libraries
 
 The following libraries must be included for proper compilation and execution:
 * picasso-2.4.0

@@ -15,7 +15,6 @@ import org.json.JSONObject;
 import android.os.AsyncTask;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.util.Log;
-import android.widget.TextView;
 
 public class DataTask extends AsyncTask<Void, Void, Void> {
     private final String TAG = getClass().getSimpleName();

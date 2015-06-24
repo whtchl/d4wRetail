@@ -20,6 +20,7 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/ripple"
         android:elevation="10dp"
-        android:src="@drawable/reply" />
+        android:src="@drawable/reply"
+        android:stateListAnimator="@anim/button_elevation" />
 
 </RelativeLayout>
